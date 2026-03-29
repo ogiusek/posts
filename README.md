@@ -1,6 +1,6 @@
 # Posts
 
-IMPORTANT! **Links do not work on github. To use links in posts download projects.**
+IMPORTANT! **Links do not work on github. To use links in posts download them.**
 
 This project stores all my posts and allows me to handle them in organized manner.
 
