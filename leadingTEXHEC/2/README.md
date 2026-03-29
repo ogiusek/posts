@@ -56,4 +56,4 @@ We don’t fight the hardware, we give it a clear map of where the data is and t
 What’s your "guilty pleasure" abstraction that you use despite the performance cost?
 Let's talk in the comments.
 
-#Golang #GameDev #SoftwareArchitecture #ECS #DataOrientedDesign #TEXHEC #Performance #CodingTips
+#Golang #SoftwareArchitecture #Performance #ECS #TEXHEC

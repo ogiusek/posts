@@ -46,4 +46,4 @@ Let’s chat in the comments.
 Do you find that the lack of external constraints in your own framework actually speeds up your feature development,
 or do you miss having a standard library of components to lean on?
 
-#Golang #GameDev #SoftwareArchitecture #ECS #DataOrientedDesign #TEXHEC #Performance #Coding #TechLead
+#DataOrientedDesign #SoftwareEngineering #Golang #GameDev #TEXHEC

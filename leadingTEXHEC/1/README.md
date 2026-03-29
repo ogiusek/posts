@@ -35,7 +35,7 @@ Here see the scale of the map with photo of whole map and of bottom right map co
 ![zommed in map](bottom_right.png){width=50%}
 ![zommed out map](whole_map.png){width=50%}
 
-[zooming map](https://github.com/ogiusek/posts/blob/main/leadingTEXHEC/1/map_scroll.gif)
+### [See zooming map under this **link**](https://github.com/ogiusek/posts/blob/main/leadingTEXHEC/1/map_scroll.gif)
 
 ## Follow for more
 Over the next few weeks, I’ll be sharing a series of posts titled "Leading TEXHEC," where I’ll dive into the unique modules I’ve written—from custom Assets and Hierarchy systems to how we handle real-time recording and state replication.
@@ -44,4 +44,4 @@ The journey from a blank `main.go` to a simulated world has been a wild ride.
 I'm excited to finally show you what’s happening behind the scenes.
 What’s your take on using Go for gamedev? Let’s argue (respectfully) in the comments.
 
-#Golang #GameDev #RTS #ECS #SoftwareArchitecture #Coding #TechLead #TEXHEC #Performance
+#Golang #GameDev #RTS #ECS #TEXHEC
