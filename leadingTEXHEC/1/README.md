@@ -44,4 +44,6 @@ The journey from a blank `main.go` to a simulated world has been a wild ride.
 I'm excited to finally show you what’s happening behind the scenes.
 What’s your take on using Go for gamedev? Let’s argue (respectfully) in the comments.
 
+### See also [**TEXHEC**](https://github.com/cursus-sudio/texhec)
+
 #Golang #GameDev #RTS #ECS #TEXHEC
