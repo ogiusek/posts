@@ -1,6 +1,8 @@
 # Posts
 
-This project stores all my posts and allows me to handle them in organized manner or to export them.
+IMPORTANT! **Links do not work on github. To use links in posts download projects.**
+
+This project stores all my posts and allows me to handle them in organized manner.
 
 - [Leading TEXHEC #1 - What is TEXHEC?](leadingTEXHEC/1/export.pdf)
 - [Leading TEXHEC #2 - Convinience vs Performance in Software](leadingTEXHEC/2/export.pdf)
