@@ -4,12 +4,14 @@ They told me Golang wasn't for games.\
 I decided to build a massive-scale RTS from scratch anyway.
 
 Meet TEXHEC the project I’ve been leading and building for over a year.\
-It’s not just a game, it’s a technical challenge to find order in endless chaos (seemingly game world).
+Its a game where scale is the only thing that matters.\
+Scale of both of the game world and scalability of codebase.
 
 ## What is TEXHEC?
 
 Imagine a world where you have to choose between automation and manual care for everything.\
 A Real-Time Strategy game where:
+
 - Scale is King: We are simulating 1,000,000 tiles with thousands of buildings and units—all in real-time.
 - Total Control: From technological dominance to total annihilation, the player has to conquer a seemingly endless world.
 - Complexity simplified: Complex tactics meet a high-performance engine built to handle them without breaking a sweat.
