@@ -25,9 +25,11 @@ A massive map generated in seconds and rendered in less than 6ms—even on a 5-y
 
 ## Why build from scratch?
 In a world of bloated engines, TEXHEC is lean. We use less than a dozen dependencies.
+
 - Simplicity = Performance.
 - No decades of technical debt.
 - Total architectural freedom.
+
 Total control over architecture allows us to choose our mental models and how hardware executes them.
 
 ## Scale
