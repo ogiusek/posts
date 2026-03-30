@@ -1,7 +1,7 @@
 # Leading TEXHEC #2
 ## Convinience vs Performance in Software
 
-In the world of high-performance systems, there’s a persistent myth: "**If it’s fast, it must be painful to write.**"
+In the world of high performance systems, there’s a persistent myth: "**If it’s fast, it must be painful to write.**"
 When building TEXHEC, I faced a choice.
 
 Do I go full "manual mode" and hardcode every asset reference to save every CPU cycle,
@@ -30,6 +30,7 @@ We pay a tiny "convenience tax" during initialization so that the rest of the ga
 
 ## The Asset Pipeline: Path → Dispatcher → Cache
 Our asset system is built directly on top of our ECS (`ecs.World`). We don’t have a massive, bloated "Asset Manager." We have **Components**.
+
 - **PathComponent**: Stores the string path (e.g., `"hud/btn.png"`).
 - **Dispatcher**: A dedicated function for each file extension. When you ask for a `.png`, the PNG dispatcher kicks in.
 - **CacheComponent**: Stores the loaded asset as an `interface`.
@@ -42,6 +43,7 @@ Fighting to optimize use one pointer for something that big as assets is prematu
 ## Custom Formats: The `.biom` Example
 Sometimes, convenience means creating your own rules.\
 We use a custom `.biom` format for our map tiles.
+
 - A `.biom` asset isn't just one file, it's a directory structure (folders `1` through `6` for different tile corners/edges).
 - Our dispatcher knows how to read this specific hierarchy and stitch it into a single asset in memory.
 
@@ -49,6 +51,7 @@ This allows the art pipeline to be simple (just drop files in folders) while the
 
 ## The Philosophy: Work With the Hardware
 The goal isn't to avoid abstractions, it's to avoid **leaky** ones.
+
 - **Convenience** is for the developer (eg. Registry tags).
 - **Performance** is for the machine (eg. ECS).
 

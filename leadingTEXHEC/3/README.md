@@ -22,6 +22,7 @@ It is about having the power to change how data flows when the simulation gets h
 We followed Data Oriented Design (DOD) to keep things fast.
 The secret is in how we store data.
 We use sparse structures that keep components packed together.
+
 - **Cache Efficiency**: The CPU doesn't have to hunt for data. It finds what it needs right where it expects it.
 - **Minimal Pointers**: This is how we made the Go Garbage Collector a non issue. If you don't give the GC a massive web of pointers to scan, it stays out of your way.
 
